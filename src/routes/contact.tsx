@@ -4,13 +4,13 @@ import { PortfolioPage } from "@/components/PortfolioPage";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Mbali Mazibuko — Contact" },
+      { title: 'Goodness Mbali Mazibuko — Contact' },
       {
         name: "description",
-        content: "Get in touch with Mbali Mazibuko via email, GitHub or LinkedIn. Download the CV.",
+        content: "Contact Goodness Mbali Mazibuko by email, phone, GitHub or LinkedIn, and download her CV.",
       },
-      { property: "og:title", content: "Mbali Mazibuko — Contact" },
-      { property: "og:description", content: "Get in touch with Mbali Mazibuko via email, GitHub or LinkedIn. Download the CV." },
+      { property: "og:title", content: "Goodness Mbali Mazibuko — Contact" },
+      { property: "og:description", content: "Contact Goodness Mbali Mazibuko by email, phone, GitHub or LinkedIn, and download her CV." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

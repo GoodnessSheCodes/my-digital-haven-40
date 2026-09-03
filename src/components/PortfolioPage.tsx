@@ -9,86 +9,121 @@ interface PortfolioPageProps {
 }
 
 const technicalSkills = [
-  "React",
-  "TypeScript",
-  "Node.js",
-  "PostgreSQL",
-  "Tailwind CSS",
-  "GraphQL",
-  "Next.js",
+  "Java",
+  "Spring Boot",
+  "Python",
+  "REST APIs",
+  "SQL",
+  "Relational database design",
+  "ORM",
+  "Apache Kafka",
+  "Apache ActiveMQ",
   "Docker",
-  "AWS",
-  "Git",
+  "Git & GitLab CI",
+  "Build automation",
+  "Linux fundamentals",
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "API testing with Postman",
 ];
 
 const softSkills = [
-  "Communication",
+  "Attention to detail & accuracy",
+  "Analytical research",
   "Problem solving",
-  "Team leadership",
-  "Mentoring",
-  "Time management",
-  "Adaptability",
+  "Data organisation & compliance",
+  "Collaborative teamwork",
+  "Effective communication",
+  "Microsoft Office proficiency",
+  "Fast learner of new tools",
 ];
 
 const projects = [
   {
-    title: "EcoTrack Dashboard",
+    title: "Payment Ledger",
     description:
-      "A sustainability analytics dashboard that visualises carbon-footprint data, sets reduction targets and exports shareable reports for teams.",
-    tech: ["React", "D3.js", "Node.js", "PostgreSQL"],
+      "A backend payment ledger service that records and reconciles transactions, exposing REST endpoints backed by a relational schema built for data consistency and integrity.",
+    tech: ["Java", "Spring Boot", "SQL", "REST API"],
     variant: "brand" as const,
   },
   {
-    title: "ShopMate Mobile App",
+    title: "Event-Driven Messaging Service",
     description:
-      "A cross-platform shopping companion with barcode scanning, real-time price comparisons and personalised deal alerts.",
-    tech: ["React Native", "Firebase", "Redux", "Stripe"],
+      "A message-driven application using Kafka and ActiveMQ to pass events between services asynchronously, containerised with Docker and deployed through GitLab CI.",
+    tech: ["Java", "Apache Kafka", "ActiveMQ", "Docker"],
     variant: "accent" as const,
   },
   {
-    title: "Portfolio CMS",
+    title: "Full-Stack Web Application",
     description:
-      "A headless content management system tailored for creatives, with markdown editing, media uploads and SEO-friendly rendering.",
-    tech: ["Next.js", "Prisma", "Tailwind CSS", "Vercel"],
+      "A full-stack project from the FNB App Academy programme combining an HTML, CSS and JavaScript front end with a Python API and a SQL database, tested end to end with Postman.",
+    tech: ["Python", "JavaScript", "HTML & CSS", "SQL"],
     variant: "mint" as const,
   },
 ];
 
 const experiences = [
   {
-    period: "2022 — Present",
-    type: "Experience",
-    title: "Full-Stack Developer · TechFlow Solutions",
+    period: "Mar 2025 — May 2025",
+    type: "Volunteering",
+    title: "Peer Mentor · WeThinkCode_",
     detail:
-      "Building customer-facing portals and internal tools using React, Node.js and PostgreSQL. Reduced page load times by 35% through caching and query optimisation.",
+      "Supported peers in problem-solving and knowledge sharing, contributed to collaborative learning and meeting project deadlines, and developed adaptability with technical tools and structured workflows.",
     dot: "brand" as const,
   },
   {
-    period: "2020 — 2022",
-    type: "Experience",
-    title: "Junior Software Developer · CloudNest Agency",
+    period: "Jul 2020 — Nov 2020",
+    type: "Volunteering",
+    title: "Legal Trainee · Law Clinic, University of Johannesburg",
     detail:
-      "Developed responsive web applications, integrated REST and GraphQL APIs, and collaborated with designers to ship polished UI components.",
+      "Conducted detailed research and drafting requiring precision and compliance with standards, managed case documentation and filing, and engaged in client consultations and problem analysis.",
     dot: "accent" as const,
   },
 ];
 
 const credentials = [
   {
-    period: "2023",
+    period: "2025",
     type: "Certification",
-    title: "AWS Certified Cloud Practitioner",
-    detail:
-      "Foundational cloud knowledge covering AWS core services, security, architecture and pricing.",
+    title: "AWS Cloud Practitioner Essentials · AWS Training and Certification",
+    detail: "Foundational cloud knowledge covering AWS core services, security, architecture and pricing.",
     dot: "mint" as const,
   },
   {
-    period: "2017 — 2020",
-    type: "Education",
-    title: "BSc Computer Science · University of Cape Town",
-    detail:
-      "Graduated with a focus on software engineering, databases and human-computer interaction.",
+    period: "2025",
+    type: "Certification",
+    title: "Full Stack Development · FNB App Academy",
+    detail: "Intensive programme covering front-end and back-end development and API integration.",
     dot: "brand" as const,
+  },
+  {
+    period: "2025",
+    type: "Certification",
+    title: "GenAI Course for Software Engineers · WeThinkCode_",
+    detail: "Applying generative AI tooling and techniques within software engineering workflows.",
+    dot: "accent" as const,
+  },
+  {
+    period: "2024",
+    type: "Education",
+    title: "Occupational Certificate: Software Engineer (NQF 6) · WeThinkCode_",
+    detail: "Johannesburg Campus, Cohort 2024. Systems analysis, software design, coding, testing and integration.",
+    dot: "brand" as const,
+  },
+  {
+    period: "2021",
+    type: "Education",
+    title: "LLB (Law) · University of Johannesburg",
+    detail: "Legal training that built rigorous research, drafting and analytical reasoning skills.",
+    dot: "accent" as const,
+  },
+  {
+    period: "2015",
+    type: "Education",
+    title: "Matric (Grade 12) · Tiisetsang High School, Bethlehem",
+    detail: "National Senior Certificate.",
+    dot: "mint" as const,
   },
 ];
 
@@ -137,14 +172,15 @@ export function PortfolioPage({ activeSection }: PortfolioPageProps) {
               Open to opportunities
             </span>
             <h1 className="mt-5 max-w-[20ch] font-display text-5xl font-bold leading-[1.05] text-ink md:text-6xl">
-              Mbali Mazibuko
+              Goodness Mbali Mazibuko
             </h1>
             <p className="mt-2 font-display text-2xl font-semibold text-brand">
-              Full-Stack Developer
+              Software Engineer
             </p>
-            <p className="mt-5 max-w-[48ch] text-lg leading-relaxed text-ink/70">
-              I build fast, accessible web products with a developer-first mindset and a designer's
-              eye for clarity and detail.
+            <p className="mt-5 max-w-[52ch] text-lg leading-relaxed text-ink/70">
+              Software Engineering graduate based in Johannesburg with hands-on experience in systems
+              analysis, software design, coding, testing and integration. I work mainly in Java,
+              Spring Boot and Python, building REST APIs and reliable database-backed services.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <Link
@@ -165,7 +201,7 @@ export function PortfolioPage({ activeSection }: PortfolioPageProps) {
             <div className="overflow-hidden rounded-full bg-accent/15 ring-1 ring-ink/5">
               <img
                 src={portrait}
-                alt="Mbali Mazibuko portrait"
+                alt="Goodness Mbali Mazibuko portrait"
                 width={512}
                 height={512}
                 className="aspect-square w-full object-cover"
@@ -180,7 +216,7 @@ export function PortfolioPage({ activeSection }: PortfolioPageProps) {
             Skills that shape my work
           </h2>
           <p className="mt-2 max-w-[48ch] text-ink/60">
-            A blend of technical depth and the soft skills that make collaboration effortless.
+Java, Python and the analytical habits carried over from a legal background.
           </p>
           <div className="mt-8 space-y-6">
             <div className="rounded-3xl bg-white p-6 ring-1 ring-ink/10">
@@ -218,7 +254,7 @@ export function PortfolioPage({ activeSection }: PortfolioPageProps) {
             Selected projects
           </h2>
           <p className="mt-2 max-w-[48ch] text-ink/60">
-            A few products I've designed and shipped end to end.
+Backend and full-stack work built during my software engineering training.
           </p>
           <div className="mt-8 grid gap-5 md:grid-cols-3">
             {projects.map((project) => (
@@ -288,25 +324,25 @@ export function PortfolioPage({ activeSection }: PortfolioPageProps) {
               Let's build something together
             </h2>
             <p className="mt-3 max-w-[48ch] text-white/80">
-              I'm currently taking on select projects and open to full-time roles.
+              I'm open to software engineering roles and graduate opportunities in Johannesburg and remotely.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <a
                 id="cv"
-                href="/mbali-mazibuko-cv.pdf"
+                href="/goodness-mbali-mazibuko-cv.pdf"
                 download
                 className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-semibold text-brand transition hover:bg-white/90"
               >
                 Download CV
               </a>
               <a
-                href="mailto:mbali.mazibuko@example.com"
+                href="mailto:gomazibjhb024@student.wethinkcode.co.za"
                 className="inline-flex items-center gap-2 rounded-full bg-white/15 px-5 py-3 text-sm font-semibold text-white ring-1 ring-white/30 transition hover:bg-white/25"
               >
-                mbali.mazibuko@example.com
+                gomazibjhb024@student.wethinkcode.co.za
               </a>
               <a
-                href="https://github.com/mbalimazibuko"
+                href="https://github.com/GoodnessSheCodes"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-white/15 px-5 py-3 text-sm font-semibold text-white ring-1 ring-white/30 transition hover:bg-white/25"
@@ -314,12 +350,18 @@ export function PortfolioPage({ activeSection }: PortfolioPageProps) {
                 GitHub
               </a>
               <a
-                href="https://linkedin.com/in/mbalimazibuko"
+                href="https://www.linkedin.com/in/goodness-mbali-mazibuko"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-white/15 px-5 py-3 text-sm font-semibold text-white ring-1 ring-white/30 transition hover:bg-white/25"
               >
                 LinkedIn
+              </a>
+              <a
+                href="tel:+27637254960"
+                className="inline-flex items-center gap-2 rounded-full bg-white/15 px-5 py-3 text-sm font-semibold text-white ring-1 ring-white/30 transition hover:bg-white/25"
+              >
+                063 725 4960
               </a>
             </div>
           </div>

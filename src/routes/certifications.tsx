@@ -4,15 +4,15 @@ import { PortfolioPage } from "@/components/PortfolioPage";
 export const Route = createFileRoute("/certifications")({
   head: () => ({
     meta: [
-      { title: "Mbali Mazibuko — Certifications" },
+      { title: 'Goodness Mbali Mazibuko — Certifications' },
       {
         name: "description",
-        content: "Professional certifications of Mbali Mazibuko, including AWS Certified Cloud Practitioner.",
+        content: "Certifications: AWS Cloud Practitioner Essentials, FNB App Academy Full Stack Development, GenAI for Software Engineers.",
       },
-      { property: "og:title", content: "Mbali Mazibuko — Certifications" },
+      { property: "og:title", content: "Goodness Mbali Mazibuko — Certifications" },
       {
         property: "og:description",
-        content: "Professional certifications of Mbali Mazibuko, including AWS Certified Cloud Practitioner.",
+        content: "Certifications: AWS Cloud Practitioner Essentials, FNB App Academy Full Stack Development, GenAI for Software Engineers.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

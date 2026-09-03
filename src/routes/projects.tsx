@@ -4,17 +4,15 @@ import { PortfolioPage } from "@/components/PortfolioPage";
 export const Route = createFileRoute("/projects")({
   head: () => ({
     meta: [
-      { title: "Mbali Mazibuko — Projects" },
+      { title: 'Goodness Mbali Mazibuko — Projects' },
       {
         name: "description",
-        content:
-          "Selected projects by Mbali Mazibuko: EcoTrack Dashboard, ShopMate Mobile App and Portfolio CMS.",
+        content: "Projects by Goodness Mbali Mazibuko: Payment Ledger, an event-driven messaging service and a full-stack web application.",
       },
-      { property: "og:title", content: "Mbali Mazibuko — Projects" },
+      { property: "og:title", content: "Goodness Mbali Mazibuko — Projects" },
       {
         property: "og:description",
-        content:
-          "Selected projects by Mbali Mazibuko: EcoTrack Dashboard, ShopMate Mobile App and Portfolio CMS.",
+        content: "Projects by Goodness Mbali Mazibuko: Payment Ledger, an event-driven messaging service and a full-stack web application.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

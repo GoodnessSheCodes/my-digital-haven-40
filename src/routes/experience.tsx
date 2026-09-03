@@ -4,15 +4,15 @@ import { PortfolioPage } from "@/components/PortfolioPage";
 export const Route = createFileRoute("/experience")({
   head: () => ({
     meta: [
-      { title: "Mbali Mazibuko — Work Experience" },
+      { title: 'Goodness Mbali Mazibuko — Experience' },
       {
         name: "description",
-        content: "Work experience of Mbali Mazibuko, full-stack developer at TechFlow Solutions and CloudNest Agency.",
+        content: "Experience of Goodness Mbali Mazibuko: peer mentor at WeThinkCode_ and legal trainee at the UJ Law Clinic.",
       },
-      { property: "og:title", content: "Mbali Mazibuko — Work Experience" },
+      { property: "og:title", content: "Goodness Mbali Mazibuko — Experience" },
       {
         property: "og:description",
-        content: "Work experience of Mbali Mazibuko, full-stack developer at TechFlow Solutions and CloudNest Agency.",
+        content: "Experience of Goodness Mbali Mazibuko: peer mentor at WeThinkCode_ and legal trainee at the UJ Law Clinic.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
