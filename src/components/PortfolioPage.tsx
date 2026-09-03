@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Link } from "@tanstack/react-router";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
-import portrait from "@/assets/mbali-mazibuko-profile.JPG.asset.json";
+import portrait from "@/assets/mbali-mazibuko-profile-cropped.jpg";
 
 interface PortfolioPageProps {
   activeSection?: string;
@@ -200,7 +200,7 @@ export function PortfolioPage({ activeSection }: PortfolioPageProps) {
           <div className="w-40 md:w-56">
             <div className="overflow-hidden rounded-full bg-accent/15 ring-1 ring-ink/5">
               <img
-                src={portrait.url}
+                src={portrait}
                 alt="Goodness Mbali Mazibuko portrait"
                 width={512}
                 height={512}
