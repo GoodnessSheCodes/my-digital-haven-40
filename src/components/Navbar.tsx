@@ -42,7 +42,7 @@ export function Navbar() {
 
         <div className="flex items-center gap-2">
           <a
-            href="/mbali-mazibuko-cv.pdf"
+            href="/goodness-mbali-mazibuko-cv.pdf"
             download
             className="hidden items-center gap-1.5 rounded-full bg-brand px-4 py-2 text-sm font-semibold text-white ring-2 ring-brand/30 transition hover:bg-brand/90 sm:inline-flex"
           >
@@ -83,7 +83,7 @@ export function Navbar() {
               </Link>
             ))}
             <a
-              href="/mbali-mazibuko-cv.pdf"
+              href="/goodness-mbali-mazibuko-cv.pdf"
               download
               className="mt-2 inline-flex items-center justify-center gap-1.5 rounded-full bg-brand px-4 py-3 text-sm font-semibold text-white ring-2 ring-brand/30"
             >
