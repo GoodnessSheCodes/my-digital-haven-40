@@ -4,13 +4,13 @@ import { PortfolioPage } from "@/components/PortfolioPage";
 export const Route = createFileRoute("/education")({
   head: () => ({
     meta: [
-      { title: "Mbali Mazibuko — Education" },
+      { title: 'Goodness Mbali Mazibuko — Education' },
       {
         name: "description",
-        content: "Education background of Mbali Mazibuko, a full-stack developer.",
+        content: "Education: Occupational Certificate in Software Engineering (WeThinkCode_), LLB from the University of Johannesburg.",
       },
-      { property: "og:title", content: "Mbali Mazibuko — Education" },
-      { property: "og:description", content: "Education background of Mbali Mazibuko, a full-stack developer." },
+      { property: "og:title", content: "Education: Occupational Certificate in Software Engineering (WeThinkCode_), LLB from the University of Johannesburg." },
+      { property: "og:description", content: "Education: Occupational Certificate in Software Engineering (WeThinkCode_), LLB from the University of Johannesburg." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
