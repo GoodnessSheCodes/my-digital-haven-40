@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Link } from "@tanstack/react-router";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
-import portrait from "@/assets/portrait.jpg";
+import portrait from "@/assets/mbali-mazibuko-profile.JPG.asset.json";
 
 interface PortfolioPageProps {
   activeSection?: string;
@@ -200,7 +200,7 @@ export function PortfolioPage({ activeSection }: PortfolioPageProps) {
           <div className="w-40 md:w-56">
             <div className="overflow-hidden rounded-full bg-accent/15 ring-1 ring-ink/5">
               <img
-                src={portrait}
+                src={portrait.url}
                 alt="Goodness Mbali Mazibuko portrait"
                 width={512}
                 height={512}
@@ -356,12 +356,6 @@ Backend and full-stack work built during my software engineering training.
                 className="inline-flex items-center gap-2 rounded-full bg-white/15 px-5 py-3 text-sm font-semibold text-white ring-1 ring-white/30 transition hover:bg-white/25"
               >
                 LinkedIn
-              </a>
-              <a
-                href="tel:+27637254960"
-                className="inline-flex items-center gap-2 rounded-full bg-white/15 px-5 py-3 text-sm font-semibold text-white ring-1 ring-white/30 transition hover:bg-white/25"
-              >
-                063 725 4960
               </a>
             </div>
           </div>
