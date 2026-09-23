@@ -55,10 +55,10 @@ const projects = [
     variant: "accent" as const,
   },
   {
-    title: "Full-Stack Web Application",
+    title: "CareerMate AI",
     description:
-      "A full-stack project from the FNB App Academy programme combining an HTML, CSS and JavaScript front end with a Python API and a SQL database, tested end to end with Postman.",
-    tech: ["Python", "JavaScript", "HTML & CSS", "SQL"],
+      "This is an AI chatbot that assists the user with CV creation, Job application and interview preparation. The application provides tailored CV guidance, generates interview questions based on targeted roles.",
+    tech: ["React","JavaScript", "HTML & CSS", "SQL", "TypeScript"],
     variant: "mint" as const,
   },
 ];
@@ -339,7 +339,7 @@ Backend and full-stack work built during my software engineering training.
                 href="mailto:gomazibjhb024@student.wethinkcode.co.za"
                 className="inline-flex items-center gap-2 rounded-full bg-white/15 px-5 py-3 text-sm font-semibold text-white ring-1 ring-white/30 transition hover:bg-white/25"
               >
-                gomazibjhb024@student.wethinkcode.co.za
+                mbalimazibuko476@gmail.com
               </a>
               <a
                 href="https://github.com/GoodnessSheCodes"
