@@ -363,7 +363,7 @@ Backend and full-stack work built during my software engineering training.
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-white/15 px-5 py-3 text-sm font-semibold text-white ring-1 ring-white/30 transition hover:bg-white/25"
               >
-                The art of prompt engineering - case study
+                The Art Of Prompt Engineering - Case Study
               </a>
             </div>
           </div>
