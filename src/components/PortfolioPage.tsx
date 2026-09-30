@@ -360,9 +360,24 @@ Backend and full-stack work built during my software engineering training.
             </div>
           </div>
         </section>
+
+         </section>
+
+        {/* Case Studies */}
+        <section id="case study" className="scroll-mt-24 border-t-2 border-dashed border-ink/10 py-14 md:py-20">
+          <h2 className="max-w-[40ch] font-display text-3xl font-semibold text-ink">
+            Case Study
+          </h2>
+          <div className="mt-8 space-y-4">
+            {experiences.map((item) => (
+              <TimelineItem key={item.title} item={item} />
+            ))}
+          </div>
+        </section>
+
       </main>
 
-      <Footer />
+      <Footer /> 
     </div>
   );
 }
