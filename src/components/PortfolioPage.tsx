@@ -48,10 +48,10 @@ const projects = [
     variant: "brand" as const,
   },
   {
-    title: "Event-Driven Messaging Service",
+    title: "ForgeAI",
     description:
-      "A message-driven application using Kafka and ActiveMQ to pass events between services asynchronously, containerised with Docker and deployed through GitLab CI.",
-    tech: ["Java", "Apache Kafka", "ActiveMQ", "Docker"],
+      "CodeForge AI is a coding content generator. You type a topic, pick what kind of content you want, working code, a step-by-step tutorial, or a blog article and it uses Google's Gemini AI to generate it for you.",
+    tech: ["bolt.ai"],
     variant: "accent" as const,
   },
   {
