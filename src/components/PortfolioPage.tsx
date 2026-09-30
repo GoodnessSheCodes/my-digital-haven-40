@@ -357,21 +357,15 @@ Backend and full-stack work built during my software engineering training.
               >
                 LinkedIn
               </a>
+               <a
+                href="https://prompt-case-studies.lovable.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 rounded-full bg-white/15 px-5 py-3 text-sm font-semibold text-white ring-1 ring-white/30 transition hover:bg-white/25"
+              >
+                The art of prompt engineering - case study
+              </a>
             </div>
-          </div>
-        </section>
-
-         </section>
-
-        {/* Case Studies */}
-        <section id="case study" className="scroll-mt-24 border-t-2 border-dashed border-ink/10 py-14 md:py-20">
-          <h2 className="max-w-[40ch] font-display text-3xl font-semibold text-ink">
-            Case Study
-          </h2>
-          <div className="mt-8 space-y-4">
-            {experiences.map((item) => (
-              <TimelineItem key={item.title} item={item} />
-            ))}
           </div>
         </section>
 
