@@ -46,7 +46,7 @@ const projects = [
     description:
       "A branch of natural language processing that identifies the emotional polarity expressed in text. Organisations use it to measure how customers, users or the public feel about products, services and events.",
     tech: ["React","JavaScript", "HTML & CSS", "SQL", "TypeScript"],
-    variant: "brand" as const,
+    variant: "mint" as const,
   },
   {
     title: "ForgeAI",
@@ -337,7 +337,7 @@ Backend and full-stack work built during my software engineering training.
                 Download CV
               </a>
               <a
-                href="mailto:gomazibjhb024@student.wethinkcode.co.za"
+                href="mailto:mbalimazibuko476@gmail.com"
                 className="inline-flex items-center gap-2 rounded-full bg-white/15 px-5 py-3 text-sm font-semibold text-white ring-1 ring-white/30 transition hover:bg-white/25"
               >
                 mbalimazibuko476@gmail.com
