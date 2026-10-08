@@ -40,6 +40,14 @@ const softSkills = [
 ];
 
 const projects = [
+
+   {
+    title: "Sentiment Analysis Tool",
+    description:
+      "A branch of natural language processing that identifies the emotional polarity expressed in text. Organisations use it to measure how customers, users or the public feel about products, services and events.",
+    tech: ["React","JavaScript", "HTML & CSS", "SQL", "TypeScript"],
+    variant: "brand" as const,
+  },
   {
     title: "ForgeAI",
     description:
@@ -51,13 +59,6 @@ const projects = [
     title: "CareerMate AI",
     description:
       "This is an AI chatbot that assists the user with CV creation, Job application and interview preparation. The application provides tailored CV guidance, generates interview questions based on targeted roles.",
-    tech: ["React","JavaScript", "HTML & CSS", "SQL", "TypeScript"],
-    variant: "mint" as const,
-  },
-  {
-    title: "Sentiment Analysis Tool",
-    description:
-      "A branch of natural language processing that identifies the emotional polarity expressed in text. Organisations use it to measure how customers, users or the public feel about products, services and events.",
     tech: ["React","JavaScript", "HTML & CSS", "SQL", "TypeScript"],
     variant: "mint" as const,
   },
