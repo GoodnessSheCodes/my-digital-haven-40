@@ -61,6 +61,13 @@ const projects = [
     tech: ["React","JavaScript", "HTML & CSS", "SQL", "TypeScript"],
     variant: "mint" as const,
   },
+  {
+    title: "Sentiment Analysis Tool",
+    description:
+      "Sentiment analysis (or opinion mining) is a branch of natural language processing that identifies the emotional polarity expressed in text. Organisations use it to measure how customers, users or the public feel about products, services and events at a scale that manual reading cannot match.",
+    tech: ["Lovable:","React","JavaScript", "HTML & CSS", "SQL", "TypeScript"],
+    variant: "mint" as const,
+  },
 ];
 
 const experiences = [
