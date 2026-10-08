@@ -41,13 +41,6 @@ const softSkills = [
 
 const projects = [
   {
-    title: "Payment Ledger",
-    description:
-      "A backend payment ledger service that records and reconciles transactions, exposing REST endpoints backed by a relational schema built for data consistency and integrity.",
-    tech: ["Java", "Spring Boot", "SQL", "REST API"],
-    variant: "brand" as const,
-  },
-  {
     title: "ForgeAI",
     description:
       "CodeForge AI is a coding content generator. You type a topic, pick what kind of content you want, working code, a step-by-step tutorial, or a blog article and it uses Google's Gemini AI to generate it for you.",
@@ -64,7 +57,7 @@ const projects = [
   {
     title: "Sentiment Analysis Tool",
     description:
-      "Sentiment analysis (or opinion mining) is a branch of natural language processing that identifies the emotional polarity expressed in text. Organisations use it to measure how customers, users or the public feel about products, services and events at a scale that manual reading cannot match.",
+      "A branch of natural language processing that identifies the emotional polarity expressed in text. Organisations use it to measure how customers, users or the public feel about products, services and events.",
     tech: ["React","JavaScript", "HTML & CSS", "SQL", "TypeScript"],
     variant: "mint" as const,
   },
