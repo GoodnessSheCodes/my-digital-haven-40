@@ -64,6 +64,14 @@ const projects = [
     variant: "mint" as const,
     link: "https://job-mojo-bot.lovable.app/",
   },
+  {
+    title: "MediVault AI",
+    description:
+      "A secure patient records platform where patients control who sees their medical history. Doctors request access through consent (time-limited approval or a one-time in-person code), and every access is audited and visible to the patient. Includes consultations, prescriptions, immutable signed records and an AI assistant that explains terminology and summarises history without giving diagnoses.",
+    tech: ["React", "TypeScript", "Node.js", "SQLite", "REST APIs", "Playwright"],
+    variant: "brand" as const,
+    link: "https://pixel-patient-prime.lovable.app",
+  },
 ];
 
 const experiences = [
