@@ -40,12 +40,11 @@ const softSkills = [
 ];
 
 const projects = [
-
-   {
+  {
     title: "Sentiment Analysis Tool",
     description:
       "A branch of natural language processing that identifies the emotional polarity expressed in text. Organisations use it to measure how customers, users or the public feel about products, services and events.",
-    tech: ["React","JavaScript", "HTML & CSS", "SQL", "TypeScript"],
+    tech: ["React", "JavaScript", "HTML & CSS", "SQL", "TypeScript"],
     variant: "mint" as const,
     link: "https://pixel-pulse-porter.lovable.app/",
   },
@@ -61,7 +60,7 @@ const projects = [
     title: "CareerMate AI",
     description:
       "This is an AI chatbot that assists the user with CV creation, Job application and interview preparation. The application provides tailored CV guidance, generates interview questions based on targeted roles.",
-    tech: ["React","JavaScript", "HTML & CSS", "SQL", "TypeScript"],
+    tech: ["React", "JavaScript", "HTML & CSS", "SQL", "TypeScript"],
     variant: "mint" as const,
     link: "https://job-mojo-bot.lovable.app/",
   },
@@ -220,7 +219,7 @@ export function PortfolioPage({ activeSection }: PortfolioPageProps) {
             Skills that shape my work
           </h2>
           <p className="mt-2 max-w-[48ch] text-ink/60">
-Java, Python and the analytical habits carried over from a legal background.
+            Java, Python and the analytical habits carried over from a legal background.
           </p>
           <div className="mt-8 space-y-6">
             <div className="rounded-3xl bg-white p-6 ring-1 ring-ink/10">
@@ -258,13 +257,13 @@ Java, Python and the analytical habits carried over from a legal background.
             Selected projects
           </h2>
           <p className="mt-2 max-w-[48ch] text-ink/60">
-Backend and full-stack work built during my software engineering training.
+            Backend and full-stack work built during my software engineering training.
           </p>
           <div className="mt-8 grid gap-5 md:grid-cols-3">
             {projects.map((project) => (
               <article
                 key={project.title}
-                className="rounded-3xl bg-white p-6 ring-1 ring-ink/10 transition hover:-translate-y-1 hover:ring-brand/40"
+                className="flex flex-col rounded-3xl bg-white p-6 ring-1 ring-ink/10 transition hover:-translate-y-1 hover:ring-brand/40"
               >
                 <h3 className="font-display text-xl font-semibold text-ink">{project.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-ink/70">{project.description}</p>
@@ -278,6 +277,14 @@ Backend and full-stack work built during my software engineering training.
                     </span>
                   ))}
                 </div>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-5 inline-flex w-fit items-center gap-2 rounded-full bg-brand px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand/90"
+                >
+                  View project
+                </a>
               </article>
             ))}
           </div>
@@ -361,7 +368,7 @@ Backend and full-stack work built during my software engineering training.
               >
                 LinkedIn
               </a>
-               <a
+              <a
                 href="https://prompt-case-studies.lovable.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -372,10 +379,9 @@ Backend and full-stack work built during my software engineering training.
             </div>
           </div>
         </section>
-
       </main>
 
-      <Footer /> 
+      <Footer />
     </div>
   );
 }
