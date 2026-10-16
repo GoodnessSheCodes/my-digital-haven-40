@@ -55,6 +55,7 @@ const projects = [
       "CodeForge AI is a coding content generator. You type a topic, pick what kind of content you want, working code, a step-by-step tutorial, or a blog article and it uses Google's Gemini AI to generate it for you.",
     tech: ["bolt.ai"],
     variant: "accent" as const,
+    link: "https://technical-content-ge-vega.bolt.host/",
   },
   {
     title: "CareerMate AI",
@@ -62,6 +63,7 @@ const projects = [
       "This is an AI chatbot that assists the user with CV creation, Job application and interview preparation. The application provides tailored CV guidance, generates interview questions based on targeted roles.",
     tech: ["React","JavaScript", "HTML & CSS", "SQL", "TypeScript"],
     variant: "mint" as const,
+    link: "https://job-mojo-bot.lovable.app/",
   },
 ];
 
