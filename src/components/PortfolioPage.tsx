@@ -47,6 +47,7 @@ const projects = [
       "A branch of natural language processing that identifies the emotional polarity expressed in text. Organisations use it to measure how customers, users or the public feel about products, services and events.",
     tech: ["React","JavaScript", "HTML & CSS", "SQL", "TypeScript"],
     variant: "mint" as const,
+    link: "https://pixel-pulse-porter.lovable.app/",
   },
   {
     title: "ForgeAI",
